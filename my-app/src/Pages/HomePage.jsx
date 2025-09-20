@@ -7,6 +7,7 @@ import TaskAltIcon from '@mui/icons-material/TaskAlt';
 import HourglassTopIcon from '@mui/icons-material/HourglassTop';
 import DensityMediumIcon from '@mui/icons-material/DensityMedium';
 import AssignmentIcon from '@mui/icons-material/Assignment';
+import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
 import { useState } from 'react';
 
 export default function HomePage() {
@@ -18,7 +19,7 @@ export default function HomePage() {
         { name: "جميع مهماتي ", path: "/MyTasks", icon: <AssignmentIcon /> },
         { name: "مهماتي المنجزة ", path: "/TasksDone", icon: <TaskAltIcon /> },
         { name: "مهماتي  غير المنجزة ", path: "/NTasks", icon: <HourglassTopIcon /> },
-        { name: "لوحة التقييم ", path: "/DashBoard", icon: <HourglassTopIcon /> },
+        { name: "لوحة التقييم ", path: "/DashBoard", icon: <SignalCellularAltIcon /> },
     ]
 
     const [Open, SetOpen] = useState(true)

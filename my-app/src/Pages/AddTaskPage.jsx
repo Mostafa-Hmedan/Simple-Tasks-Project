@@ -53,8 +53,6 @@ export default function AddTaskPage() {
                     value={task.title}
                     onChange={(e) => setTask({ ...task, title: e.target.value })}
                     required
-
-
                 />
 
                 <TextField
