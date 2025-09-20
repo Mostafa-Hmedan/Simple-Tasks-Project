@@ -22,7 +22,7 @@ export default function MyTasks() {
         <div>
             <Grid container spacing={2}>
                 {tasks.map((task) => (
-                    <Grid item xs={6} sm={6} md={4} key={task.id}>
+                    <Grid item xs={6} sm={6} md={6} key={task.id}>
                         <TaskCard
                             id={task.id}
                             title={task.title}
