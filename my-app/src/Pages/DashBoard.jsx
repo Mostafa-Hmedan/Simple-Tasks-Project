@@ -1,7 +1,7 @@
 export default function DashBoard() {
     return (
         <div className="BoxInfo">
-            عليك ان اسجل دخولك لتتمكن من الاستفاددة من رؤية تقييمك!
+            عليك ان تسجل دخولك لتتمكن من الاستفادة من رؤية تقييمك!
         </div>
     )
 }
